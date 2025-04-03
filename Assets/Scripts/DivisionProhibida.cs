@@ -18,7 +18,7 @@ public class DivisionProhibida : MonoBehaviour
         }else
         {
             //instrucciones por false
-            resultado = Num1 / Num2;
+            resultado = Num1 / (Num2 * 1.0f);
             Debug.Log(Num1 + "/" + Num2 + " = " + resultado);
         }
        
